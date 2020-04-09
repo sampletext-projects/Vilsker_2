@@ -4,9 +4,14 @@ using namespace std;
 
 int main()
 {
+	setlocale(LC_ALL, "russian");
 	int N1, N2;
 
 	char c;
+	
+	cout << "Выполнила студентка группы УТН-111 Кришпенц Александра" << endl;
+	cout << "Программа проверки окончания квадрата числа самим числом" << endl;
+	
 	do
 	{
 		cin >> N1;
